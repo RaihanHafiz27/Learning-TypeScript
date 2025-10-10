@@ -20,4 +20,7 @@ console.log(point);
 point = [100, 200];
 console.log(point);
 point = [100];
-console.log();
+console.log(point);
+// readonly tuple
+var rgb = [255, 0, 0];
+// rgb[0] = 100 ERROR
