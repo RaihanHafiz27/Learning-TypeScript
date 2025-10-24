@@ -16,7 +16,6 @@ if (typeof valueUnknow === "string") {
 
 // NARROWING IN UNION TYPE
 const printId = (id: string | number) => {
-  // Narrowing with typeof
   if (typeof id === "string") {
     console.log(`String ID : ${id.toUpperCase()}`);
   } else {
